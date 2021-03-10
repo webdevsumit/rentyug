@@ -40,7 +40,7 @@ from .views import (mainPageData,
 app_name = 'main'
 
 urlpatterns = [
-    path('/', home,name='home'),
+    path('', home,name='home'),
     path('mainPageData/', mainPageData,name='main_page_data'),
     path('messageBox/', messageBox, name='messageBox'),
     path('messages/', messages, name='messages'),
