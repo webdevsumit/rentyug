@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.http import HttpResponse
 from rest_framework import generics
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -78,7 +79,8 @@ def fetchingMessages(username,msgMan):
     
     return data
 
-
+def home(request):
+    return HttpResponse('Hello World')
 
 
 @api_view(['GET'])
