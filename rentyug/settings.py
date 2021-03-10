@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '$g8gj9@!c3&hr_h8v_^-p#_ji-tm9pp9@!l)$@w=4k-&zf0_o('
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
